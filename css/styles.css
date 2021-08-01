@@ -25,6 +25,7 @@ li {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     color: var(--primary-color);
 }
 .logo-title {
@@ -32,8 +33,11 @@ li {
 }
 .link {
     color: var(--primary-color);
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 .link:hover,
 .link:focus {
@@ -42,11 +46,14 @@ li {
 .link-info {
     color: var(--extra-main-color);
 }
-.section-description {
+.link-info-oppacity {
+    font-weight: normal;
     font-size: 14px;
-    line-height: 1.7;
-    color: var(--extra-main-color);
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
+
 .footer {
     background-color: #2F303A;
 }
@@ -54,8 +61,12 @@ li {
     color: #ffffff;
 }
 .footer-address {
-    color: #ffffff;
+    font-weight: normal;
     font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 
 /* index */
@@ -65,12 +76,22 @@ li {
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36;
-    color: #ffffff;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 .hero-button {
     background-color: var(--secondary-color);
     color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    /* display: flex;
+    align-items: center;
+    text-align: center; */
+    letter-spacing: 0.06em;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -78,18 +99,50 @@ li {
     color: var(--secondary-color);
 }
 .section-main-title {
-    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
     font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .section-title {
-    font-weight: 500;
+    font-weight: bold;
     font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.section-description {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--extra-main-color);
+}
+.section-title-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+.section-description-team {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--extra-main-color);
 }
 
 /* portfolio */
 .item-filters {
     background-color: #F5F4FA;
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .item-filters:hover,
 .item-filters:focus{
@@ -97,8 +150,16 @@ li {
     background-color: var(--secondary-color);
 }
 .item-title {
-    font-weight: 700;
+    font-weight: bold;
     font-size: 18px;
-    line-height: 2;
+    line-height: 36px;
+    letter-spacing: 0.06em;
     color: var(--primary-color)
+}
+.item-section-description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--extra-main-color);
 }
