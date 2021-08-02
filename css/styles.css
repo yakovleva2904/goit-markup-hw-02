@@ -136,7 +136,9 @@ li {
 
 /* portfolio */
 .item-filters {
+    font-family: Roboto, sans-serif;
     background-color: #F5F4FA;
+    color: var(--primary-color);
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
